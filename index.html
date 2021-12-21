@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chaipitch's Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>CPITCH</h1>
+            <ul class="navLinks">
+                <li><a data-page="home" href="#home">Home</a></li>
+                <li><a data-page="about" href="#about">About</a></li>
+                <li><a data-page="project" href="#project">Projects</a></li>
+                <li><a data-page="contact" href="#contact">Contact</a></li>
+                <div class="bubble"></div>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" data-index="0" class="home">
+            <div id="hero">
+                <h2>Hi, I'm Chaipitch</h2>
+                <h4>Front-End Developer</h4>
+                <button class="neon-button"><a href="./files/2021Resume_CPITCH.pdf">Download/View Resume</a></button>
+            </div>
+        </section>
+        <section id="about" data-index="1" class="about">
+            <div class="aboutHead">
+                <h2>About</h2>
+            </div>
+            <div class="about abtContainer">
+                
+                <div class="aboutMe">
+                    <div class="Title">
+                        <h2>Personal Information</h2>
+                    </div>
+                    <p>Name: Chaipitch Wongwangpaisarn </p>
+                    <p>Birth Date: 9 May 1996 (25 Years Old)</p>
+                    <p>Interests: Web Designing, coding , technology, 3D Arts/VFX</p>
+                </div>
+
+                <div class="workEx">
+                    <div class="Title">
+                        <h2>Work Experience</h2>
+                    </div>
+                    <p>MESHFX: 3D Generalist</p>
+                    <p>Freelance: 3D Generalist</p>
+                    <p>Smoke and Mirrors: 3D Generalist</p>
+                    <p>Freelance: 3D Generalist</p>
+                </div>
+
+                <div class="skills">
+                    <div class="Title">
+                        <h2>Skills</h2>
+                    </div>
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                    <p>Javascript</p>
+                    <p>Basic React</p>
+                </div>
+                
+        </section>
+        <section id="project" data-index="2" class="project">
+            <div class="Projects">
+                <h2>Projects</h2>
+                <div class="card">
+                    <p>ImageExp</p>
+                    <button id="projButton"><a href="#">See More</a></button>
+                </div>
+                <div class="card">
+                    <p>BeatMixer</p>
+                    <button id="projButton"><a href="#">See More</a></button>
+                </div>
+                <div class="card">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero eos nemo, quos odit,</p>
+                    <button id="projButton"><a href="#">See More</a></button>
+                </div>
+        </section>
+        <section id="contact" data-index="3" class="contact">
+            <h2>Contact</h2>
+            <div class="contactDetails">
+                <div class="contactCard">
+                    <img src="./images/smartphone.png" alt="" width="100px" style="filter:invert(80%) sepia(5%) saturate(2885%) hue-rotate(191deg) brightness(104%) contrast(103%);">
+                    <p>Tel: +666-5095-3900</p>
+                </div>
+                <div class="contactCard">
+                    <img src="./images/line.png" alt="" width="100px" style="filter:invert(80%) sepia(5%) saturate(2885%) hue-rotate(191deg) brightness(104%) contrast(103%);">
+                    <p>LineID: @Chaibeam</p>
+                </div>
+                <div class="contactCard">
+                    <img src="./images/email.png" alt="" width="100px" style="filter:invert(80%) sepia(5%) saturate(2885%) hue-rotate(191deg) brightness(104%) contrast(103%);">
+                    <p>Email: chaipitch6@gmail.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
