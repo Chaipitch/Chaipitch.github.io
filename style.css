@@ -284,6 +284,8 @@ section h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-width: 500px;
+  min-height: 250px;
 }
 
 #projButton {
@@ -542,6 +544,11 @@ section h2 {
   .Projects h2 {
     margin-top: 6rem;
     font-size: 3rem;
+  }
+
+  .Projects .card {
+    min-width: 350px;
+    min-height: 150px;
   }
   /*Contact */
   .contact {
